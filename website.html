@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindMend Team</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+  <div class="team-heading">
+    <h1>MindMend Team</h1>
+  </div>
+  
+  <div class="container">
+    <div class="box">
+      <div class="image">
+        <img src="ProfilePictures/AbdelrahmanAyman.jpg">
+      </div>
+      <h1 class="title">Abdelrahman Ayman</h1>
+      <p class="section__text__p1">MindMend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./ProfilePictures/Abdelrahman-Ayman-Shorim-FlowCV-Resume-20240624.pdf')">Download CV</button>
+      </div>
+      <div id="socials-container">
+        <img src="./ProfilePictures/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href= 'https://www.linkedin.com/in/abdelrahman-ayman-shorim/'" />
+        <img src="./ProfilePictures/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Abdelrahman-Shorim/'" />
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="ProfilePictures/MinaAntoun.jpg">
+      </div>
+      <h1 class="title">Mina Antoun</h1>
+      <p class="section__text__p1">MindMend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./ProfilePictures/Mina_Antoun_Resume.pdf')">Download CV</button>
+      </div>
+      <div id="socials-container">
+        <img src="./ProfilePictures/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href= 'https://www.linkedin.com/in/mina-antoun-b2b167234/'" />
+        <img src="./ProfilePictures/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/MinaAntoun'" />
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="ProfilePictures/HabibaMohamed.jpg">
+      </div>
+      <h1 class="title">Habiba Mohamed</h1>
+      <p class="section__text__p1">MindMend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./ProfilePictures/HabibaResume.pdf')">Download CV</button>
+      </div>
+      <div id="socials-container">
+        <img src="./ProfilePictures/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href= 'https://www.linkedin.com/in/habibamohamed07/'" />
+        <img src="./ProfilePictures/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/HabibaMohamed07'" />
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="ProfilePictures/ShehabEldeen.jpg">
+      </div>
+      <h1 class="title">Shehab Sadek</h1>
+      <p class="section__text__p1">MindMend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./ProfilePictures/shehab sadek.pdf')">Download CV</button>
+      </div>
+      <div id="socials-container">
+        <img src="./ProfilePictures/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href= 'https://www.linkedin.com/in/shehabsadek1/'" />
+        <img src="./ProfilePictures/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/ShehabSadek'" />
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="ProfilePictures/HabibaAmr.jpg">
+      </div>
+      <h1 class="title">Habiba Amr</h1>
+      <p class="section__text__p1">MindMend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./ProfilePictures/Habiba-Amr-CV.pdf')">Download CV</button>
+      </div>
+      <div id="socials-container">
+        <img src="./ProfilePictures/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href= 'https://www.linkedin.com/in/habiba-amr-791425234/'" />
+        <img src="./ProfilePictures/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Habiba1234567'" />
+      </div>
+    </div>
+  </div>
+
+  <div class="lower-section">
+    <video id="video" width="600" controls>
+      <source src="mindmend video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <script>
+    function openPDF(file) {
+      window.open(file, '_blank');
+    }
+
+    document.getElementById('play-button').addEventListener('click', function() {
+      document.getElementById('video').play();
+    });
+  </script>
+</body>
+</html>
